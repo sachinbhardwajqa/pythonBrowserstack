@@ -48,6 +48,6 @@ jobs:
       - name: Test with pytest
         run: |
             pwd
-            cd */tests
+            cd pythonBrowserstack
             pwd
 #            pytest browserstack_sample.py
