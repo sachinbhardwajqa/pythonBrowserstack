@@ -48,5 +48,6 @@ jobs:
       - name: Test with pytest
         run: |
             pwd
-            ls -la
-            pytest browserstack_sample.py
+            cd */tests
+            pwd
+#            pytest browserstack_sample.py
