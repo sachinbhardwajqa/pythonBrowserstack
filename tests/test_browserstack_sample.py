@@ -6,11 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import pytest
 import allure
-
-
-@allure.feature('Demo Python Browserstack')
-@allure.story('Launch Baliston App and Skip Intro')
-
 def test_sample():
     # Options are only available since client version 2.3.0
     options = UiAutomator2Options().load_capabilities({
@@ -23,9 +18,9 @@ def test_sample():
         #
         # Set other BrowserStack capabilities
         'bstack:options' : {
-            "projectName" : "Baliston Python project Demo Run 3",
+            "projectName" : "Baliston Python project Demo Run Completed",
             "buildName" : "browserstack-build-11",
-            "sessionName" : "BStack Test 3",
+            "sessionName" : "Browser Stack Test Completed",
             # Set your access credentials
             "userName" : "ersachin_hS87en",
             "accessKey" : "tmyn26QYqFZzfy7qRCLh"
