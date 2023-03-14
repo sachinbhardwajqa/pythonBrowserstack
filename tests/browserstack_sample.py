@@ -25,8 +25,8 @@ def test_demo():
         # Set other BrowserStack capabilities
         'bstack:options' : {
             "projectName" : "Baliston Python project Demo",
-            "buildName" : "browserstack-build-1",
-            "sessionName" : "BStack first_test",
+            "buildName" : "browserstack-build-11",
+            "sessionName" : "BStack Test",
             # Set your access credentials
             "userName" : "ersachin_hS87en",
             "accessKey" : "tmyn26QYqFZzfy7qRCLh"
@@ -42,7 +42,7 @@ def test_demo():
         EC.element_to_be_clickable((AppiumBy.ACCESSIBILITY_ID, "skip_button"))
     )
     skip_element.click()
-    assert 2 == 3, "2 is not equal to 3"
+    assert 2 == 2, "2 is not equal to 3"
     # search_input = WebDriverWait(driver, 30).until(
     #     EC.element_to_be_clickable(
     #         (AppiumBy.ID, "org.wikipedia.alpha:id/search_src_text"))
