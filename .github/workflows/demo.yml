@@ -48,7 +48,8 @@ jobs:
       - name: List files in current directory
         run: |
             pwd
-            ls -a -R /
+            cd /home/runner/work/pythonBrowserstack/tests
+            pwd
 #      - name: Test with pytest
 #        run: |
 #            cd pythonBrowserstack
