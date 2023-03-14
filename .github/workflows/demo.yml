@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.10"]
+        python-version: ["3.9"]
 
     steps:
       - name: BrowserStack Actions
@@ -47,4 +47,4 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-            pytest tests/browserstack_sample.py
+            python3 -m pytest tests/browserstack_sample.py
