@@ -48,7 +48,7 @@ jobs:
       - name: List files in current directory
         run: |
             pwd
-            ls
+            ls -a
 #      - name: Test with pytest
 #        run: |
 #            cd pythonBrowserstack
