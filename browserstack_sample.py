@@ -14,7 +14,7 @@ options = UiAutomator2Options().load_capabilities({
     "deviceName" : "Google Pixel 3",
     # Set other BrowserStack capabilities
     'bstack:options' : {
-        "projectName" : "Baliston Python project",
+        "projectName" : "Baliston Python project Demo",
         # Set your access credentials
         "userName" : "ersachin_hS87en",
         "accessKey" : "tmyn26QYqFZzfy7qRCLh"
