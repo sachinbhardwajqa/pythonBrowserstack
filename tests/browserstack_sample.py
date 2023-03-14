@@ -24,7 +24,7 @@ def test_demo():
         #
         # Set other BrowserStack capabilities
         'bstack:options' : {
-            "projectName" : "Baliston Python project Demo",
+            "projectName" : "Baliston Python project Demo Run 2",
             "buildName" : "browserstack-build-11",
             "sessionName" : "BStack Test",
             # Set your access credentials
