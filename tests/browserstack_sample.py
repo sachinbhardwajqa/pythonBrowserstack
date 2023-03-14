@@ -11,8 +11,7 @@ import allure
 @allure.feature('Demo Python Browserstack')
 @allure.story('Launch Baliston App and Skip Intro')
 
-
-def test_demo():
+def test_sample():
     # Options are only available since client version 2.3.0
     options = UiAutomator2Options().load_capabilities({
         # Set URL of the application under test
@@ -58,5 +57,3 @@ def test_demo():
 
     print("End of Test")
     driver.quit()
-
-test_demo()
