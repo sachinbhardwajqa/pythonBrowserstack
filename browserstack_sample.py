@@ -15,8 +15,6 @@ options = UiAutomator2Options().load_capabilities({
     # Set other BrowserStack capabilities
     'bstack:options' : {
         "projectName" : "Baliston Python project",
-        "buildName" : "browserstack-build-11",
-        "sessionName" : "Baliston BStack Test",
         # Set your access credentials
         "userName" : "ersachin_hS87en",
         "accessKey" : "tmyn26QYqFZzfy7qRCLh"
