@@ -58,3 +58,5 @@ def test_demo():
 
     print("End of Test")
     driver.quit()
+
+test_demo()
